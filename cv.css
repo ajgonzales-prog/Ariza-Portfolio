@@ -254,8 +254,31 @@ body {
 
   .cv-page {
     width: 95%;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: auto;
+  }
+
+  .cv-main {
+    order: 1;
+    padding: 25px 20px;
+  }
+
+  .cv-sidebar {
+    order: 2;
+    padding: 25px 20px;
+    border-right: none;
+    border-top: 1px solid #e0d6cb;
+  }
+
+  .cv-main .cv-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .download-container {
+    margin: 30px 0 50px 0;
   }
 }
 
