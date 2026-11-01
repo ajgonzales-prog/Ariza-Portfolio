@@ -2,9 +2,9 @@
 const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
 
-if (menuToggle) {
+if (menuToggle && navLinks) {
   menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
+    navLinks.classList.toggle('active'); // Binago mula 'show' patungong 'active'
   });
 }
 
