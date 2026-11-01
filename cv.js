@@ -4,7 +4,7 @@ const navLinks = document.getElementById('navLinks');
 
 if (menuToggle) {
   menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
+    navLinks.classList.toggle('active'); // Binago mula 'show' patungong 'active'
   });
 }
 
